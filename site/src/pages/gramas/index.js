@@ -29,5 +29,5 @@ export default function Soveteria() {
             <div>  {resul} </div>                      
             </section>     
             
-            )}
-}
+      )}
+

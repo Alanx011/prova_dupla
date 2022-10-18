@@ -4,13 +4,15 @@ import {useState} from "react";
 export default function Linhas() {
          const [linha, setLinha] = useState(0);
          
-         const [resul, setResul] = useState(0);
+         const [resul, setResul] = useState([]);
 
           function Calcular(){
             let arr = []
             for (let cont =1; cont <= linha; cont++){
-                process.stdout.writr("*" );
-            arr.push(cont + " ")
+                let asterisco = "*"
+               arr.push(`${asterisco}`);
+
+
           }  
           setResul(arr)
 

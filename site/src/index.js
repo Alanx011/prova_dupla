@@ -8,6 +8,8 @@ import Tanque from './pages/tanque/index';
 import Febre from './pages/situaçaofebre/index.js';
 import Salario from './pages/salario/index.js';
 import Orçamento from './pages/sitOrcamento/index.js';
+import Contador from './pages/funcContar/index.js';
+import Linhas from './pages/linha/index.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +18,9 @@ root.render(
       <Routes>
       <Route path='/Acai' element={<Acai/>} />
         <Route path='/Signos' element={<Signos/>} />
-        <Route path='/' element={<Orçamento/>} />
+        <Route path='/Orçamento' element={<Orçamento/>} />
+        <Route path='/Linha' element={<Linhas/>} />
+        <Route path='/' element={<Contador/>} />
         <Route path='/Tanque' element={<Tanque/>} />
         <Route path='/situacao' element={<Febre/>} />
         <Route path='/salario' element={<Salario/>} />
